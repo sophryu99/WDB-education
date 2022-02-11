@@ -1,0 +1,27 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    color:red
+}
+
+h1 {
+    color: yellow
+}
+
+.bee {
+    color: chocolate;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.barry {
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+}
+
+.regular-div {
+    background-color: indigo;
+    opacity: 0.3;
+}
