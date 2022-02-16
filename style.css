@@ -1,0 +1,41 @@
+/* 
+body {
+    color: palevioletred;
+    background-color: black;
+    font-size: 20px;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+p {
+    color: beige;
+    font-size: 10px;
+} */
+
+.box-container {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    /* background-color: black; */
+    color: white;
+    font-size: 30px;
+}
+
+.box-one {
+    background-color: red;
+    /* color: black; */
+}
+
+.box-two {
+    background-color: pink;
+    /* color: black; */
+}
+
+.box-three {
+    background-color: burlywood;
+    /* color: black; */
+}
