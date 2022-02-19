@@ -92,24 +92,28 @@
   }
 
   /* Greece elements */
- .mini {
-    height: 22.2%;
-    z-index: 2;
-    width: 20%;
+ 
+  .flag-greece {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 5fr 4fr;
   }
 
-  .rectangle_horizontal {
-    height: 11.1%;
-    z-index: 2;
-    width: 20%;
+  .flag-greece > div:first-child {
+      display: grid;
+      grid-template-columns: 2fr 1fr 2fr;
   }
 
-  .rectangle_vertical {
-    height: 22.2%;
-    z-index: 2;
-    width: 20%;
+  .flag-greece > div:nth-child(n+2) {
+      display: grid;
   }
-
+  .greece-blue{
+    background-color: rgb(5,94,176);
+  }
 
   
   /* Colors/ Feel free to add your own! */
