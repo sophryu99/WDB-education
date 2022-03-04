@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+  
+  /* For the aesthetics */
+.nav-button {
+    /* background-color: lightpink; */
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 10px;
+}
